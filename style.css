@@ -17,68 +17,18 @@ p {
     border-radius: 10px;
     border: 1px solid #ddd;
     padding: 5px;
-    /* margin-left: auto;
-    margin-right: auto;
-    display: block; */
+}
+
+.name-div {
+    padding-left: 50px;
+}
+
+.header-div {
+    display: flex;
+    width: 100%;
 }
 
 .profile-picture:hover {
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-.blue-box {
-    background-color: blue;
-    height: 300px;
-    width: 500px;
-    position: relative;
-    left: 200px;
-    top: 200px;
-}
 
-.red-circle {
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    position: absolute;
-    left: 250px;
-    top: 150px;
-}
-
-.flag {
-    height: 600px;
-    width: 900px;
-    background-color: red;
-    color: white;
-    font-size: 70px;
-    position: relative;
-}
-
-/* white circle */
-.flag>div>div {
-    height: 200px;
-    width: 200px;
-    background-color: white;
-    border-radius: 50%;
-    position: relative;
-    top: 50px;
-    left: 350px;
-}
-
-.flag>div>div>p {
-    color: black;
-}
-
-p {
-    color: white;
-    margin: 0;
-    text-align: center;
-}
-
-/* purple portion */
-.flag>div {
-    background-color: purple;
-    position: absolute;
-    top: 150px;
-    height: 300px;
-    width: 100%;
-}
