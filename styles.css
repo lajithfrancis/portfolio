@@ -51,7 +51,7 @@ p {
   color: #343a40; /* Example: Dark text color */
   padding: 10px 20px; /* Example: Padding */
   border-radius: 8px; /* Example: Rounded corners */
-  transition: background-color 0.3s, color 0.3s; /* Example: Smooth transition */
+  transition: all 0.3s, color 0.3s; /* Example: Smooth transition */
 }
 
 .custom-btn:hover {
