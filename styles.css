@@ -57,9 +57,18 @@ p {
 
 .custom-btn:hover,
 .btn.btn-secondary:hover {
-  background-color: #343a40; /* Example: Dark background on hover */
   background: linear-gradient(to right, #9c89b8, #483392);
   transform: scale(1.05);
   color: white
+}
+
+i {
+  transition: all 0.3s, color 0.3s;
+
+}
+
+i:hover {
+  transform: scale(1.2);
+  color: black !important;
 }
 
