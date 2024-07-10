@@ -44,7 +44,8 @@ p {
 }
 
 /* styles.css */
-.custom-btn, .btn.btn-secondary {
+.custom-btn,
+.btn.btn-secondary {
   font-size: 18px; /* Example: Increase font size */
   background-color: #dacfe4; /* Example: Light gray background */
   border: 0;
@@ -54,9 +55,11 @@ p {
   transition: all 0.3s, color 0.3s; /* Example: Smooth transition */
 }
 
-.custom-btn:hover {
+.custom-btn:hover,
+.btn.btn-secondary:hover {
   background-color: #343a40; /* Example: Dark background on hover */
   background: linear-gradient(to right, #9c89b8, #483392);
   transform: scale(1.05);
+  color: white
 }
 
