@@ -57,5 +57,6 @@ p {
 .custom-btn:hover {
   background-color: #343a40; /* Example: Dark background on hover */
   background: linear-gradient(to right, #9c89b8, #483392);
+  transform: scale(1.05);
 }
 
