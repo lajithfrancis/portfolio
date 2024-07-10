@@ -10,6 +10,7 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/footers/">
   <!-- linked in and github icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link rel="stylesheet" href="./styles.css">
   <link rel="icon" href="public/favicon_io/favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="public/favicon_io/favicon.ico" type="image/x-icon">
 
@@ -18,7 +19,7 @@
   </style>
 </head>
 
-<body data-bs-theme="dark">
+<body data-bs-theme="">
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary" style="position: sticky; top: 0;">
     <div class="container-fluid">
@@ -37,19 +38,15 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#project">My Projects</a>
+            <a class="nav-link" href="#overview">My Overview</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
   <div class="main-content">
     <section class="home section" id="home">
-      <div class="container">
+      <div class="container" style="height: 100vh;">
         <div class="row flex-lg-row align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="public/my-pic.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500"
@@ -70,7 +67,7 @@
                   <i class="fab fa-facebook" style='font-size:30px; color: grey;'></i></a></p>
             </div>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <a class="btn btn-primary btn-lg px-4 gap-3" href="./Lajith_Francis_Resume.pdf" role="button">Resume</a>
+              <a class="btn btn-outline-dark btn-lg px-4 gap-3 custom-btn" href="./Lajith_Francis_Resume.pdf" role="button">Resume</a>
             </div>
           </div>
         </div>
@@ -142,9 +139,9 @@
         </div>
       </div>
     </section>
-    <section class="project section" id="project">
+    <section class="overview section" id="overview">
       <div class="container">
-        <h1>My Projects</h1>
+        <h1>My Projects & Career Overview</h1>
         <hr />
         <a href="https://lajithfrancis.github.io/React-project">Visit here</a>
       </div>
