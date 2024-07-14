@@ -62,12 +62,14 @@ p {
 .btn.btn-secondary:hover {
   background: linear-gradient(to right, #9c89b8, #483392);
   transform: scale(1.05);
-  color: white
+  color: white;
+  .skill-icon {
+    transition: none;
+  }
 }
 
 i {
   transition: all 0.3s, color 0.3s;
-
 }
 
 i:hover {
@@ -79,6 +81,7 @@ i:hover {
   font-size: 30px;
   &:hover {
     color: white !important;
+    transform: none;
   }
 }
 
