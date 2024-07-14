@@ -165,8 +165,7 @@ i:hover {
 }
 
 .tech li {
-  background-color: #4361ee;
-  /* background-color: #9163cb;  Lavender color */
+  background: linear-gradient(to right, #9c89b8, #483392);
   border-radius: 50px;
   display: inline-block;
   padding: 5px 10px;
