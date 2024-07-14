@@ -75,3 +75,16 @@ i:hover {
   color: black !important;
 }
 
+.skill-icon {
+  font-size: 30px;
+  &:hover {
+    color: white !important;
+  }
+}
+
+.tech-skill > a {
+  display: flex;
+  justify-content: center;
+  gap: .25rem;
+}
+
