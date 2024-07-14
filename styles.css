@@ -49,6 +49,7 @@ p {
 /* styles.css */
 .custom-btn,
 .btn.btn-secondary {
+  border-radius: 50px !important;
   font-size: 18px; /* Example: Increase font size */
   background-color: #dacfe4; /* Example: Light gray background */
   border: 0;
