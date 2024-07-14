@@ -91,3 +91,88 @@ i:hover {
   gap: .25rem;
 }
 
+/* Slider CSS styles */
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.slide {
+  flex: 0 0 100%; /* Make each slide take full width */
+  height: 300px; /* Set a fixed height for the slides */
+  max-width: 300px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px auto;
+  /* margin-bottom: 20px; */
+  min-width: 350px;
+  /* height: 300px; */
+  transition: transform 0.3s;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h4 {
+  margin: 0;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.card p {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #333333;
+  max-height: 100px;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.tech-div {
+  padding: 15px;
+}
+
+.tech-div span {
+  font-weight: bold;
+  color: grey;
+}
+
+.tech {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.tech li {
+  background-color: #4361ee;
+  /* background-color: #9163cb;  Lavender color */
+  border-radius: 50px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Slider CSS styles */
