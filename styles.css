@@ -9,6 +9,29 @@ h3 {
   color: #333;
 }
 
+.nav-item {
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  margin: 0 16px;
+}
+
+.nav-item::before {
+  content: '';
+  width: 100%;
+  background-color: black;
+  bottom: -10px;
+  height: 0.2em;
+  position: absolute;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover::before {
+  transform: scaleX(1);
+}
+
 p {
   margin-bottom: 10px;
   color: #67666b;
