@@ -196,16 +196,15 @@ i:hover {
   box-sizing: border-box;
 	/* color: #00a84f; */
 	color: #483392;
-	display: block;
-	font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
 	height: 80px;
 	letter-spacing: 1px;
+  font-size: 18px;
 	margin: 20px 0;
 	padding: 4px;
 	position: relative;
   text-decoration: none;
 	text-transform: uppercase;
-	width: 264px;
+	width: 200px;
 /* 	z-index: 2; */
 }
 
