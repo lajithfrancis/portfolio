@@ -124,6 +124,7 @@ i:hover {
   flex-wrap: nowrap;
   overflow-x: auto;
   gap: 1rem;
+  touch-action: auto;
   &::-webkit-scrollbar {
     width: 0;
     background: transparent;
