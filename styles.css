@@ -188,3 +188,42 @@ i:hover {
   width: 30px;
   height: 30px;
 }
+
+.gradient-btn {
+	/* background-image: linear-gradient(to right, #006175 0%, #00a950 100%); */
+	background-image: linear-gradient(to right, #9c89b8, #483392);
+	border-radius: 40px;
+  box-sizing: border-box;
+	/* color: #00a84f; */
+	color: #483392;
+	display: block;
+	font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+	height: 80px;
+	letter-spacing: 1px;
+	margin: 20px 0;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	width: 264px;
+/* 	z-index: 2; */
+}
+
+.gradient-btn:hover {
+	color: #fff;
+}
+
+.gradient-btn span {
+	align-items: center;
+	background: #e7e8e9;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}
+
+.gradient-btn:hover span {
+	background: transparent;
+}
