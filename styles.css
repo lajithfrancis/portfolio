@@ -102,6 +102,10 @@ i:hover {
   flex-wrap: nowrap;
   overflow-x: auto;
   gap: 1rem;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
 }
 
 .slide {
@@ -179,3 +183,8 @@ i:hover {
 }
 
 /* Slider CSS styles */
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+}
