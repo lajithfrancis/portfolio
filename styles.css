@@ -54,8 +54,8 @@ p {
 .btn.btn-secondary {
   border-radius: 50px !important;
   font-size: 18px; /* Example: Increase font size */
-  background-color: #dacfe4; /* Example: Light gray background */
-  border: 0;
+  background-color: #fff; /* Example: Light gray background */
+  border: .5px solid;
   color: #343a40; /* Example: Dark text color */
   padding: 10px 20px; /* Example: Padding */
   border-radius: 8px; /* Example: Rounded corners */
