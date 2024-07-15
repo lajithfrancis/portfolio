@@ -44,14 +44,18 @@ p {
   .profile-picture {
     float: none;
   }
+  .card {
+    min-width: 270px !important;
+  }
 }
 
 /* styles.css */
 .custom-btn,
 .btn.btn-secondary {
+  border-radius: 50px !important;
   font-size: 18px; /* Example: Increase font size */
-  background-color: #dacfe4; /* Example: Light gray background */
-  border: 0;
+  background-color: #fff; /* Example: Light gray background */
+  border: .5px solid;
   color: #343a40; /* Example: Dark text color */
   padding: 10px 20px; /* Example: Padding */
   border-radius: 8px; /* Example: Rounded corners */
@@ -62,12 +66,14 @@ p {
 .btn.btn-secondary:hover {
   background: linear-gradient(to right, #9c89b8, #483392);
   transform: scale(1.05);
-  color: white
+  color: white;
+  .skill-icon {
+    transition: none;
+  }
 }
 
 i {
   transition: all 0.3s, color 0.3s;
-
 }
 
 i:hover {
@@ -75,3 +81,149 @@ i:hover {
   color: black !important;
 }
 
+.skill-icon {
+  font-size: 30px;
+  &:hover {
+    color: white !important;
+    transform: none;
+  }
+}
+
+.tech-skill > a {
+  display: flex;
+  justify-content: center;
+  gap: .25rem;
+}
+
+/* Slider CSS styles */
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1rem;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.slide {
+  flex: 0 0 100%; /* Make each slide take full width */
+  height: 300px; /* Set a fixed height for the slides */
+  max-width: 300px;
+  background-color: #f0f0f0;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.card {
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px auto;
+  /* margin-bottom: 20px; */
+  min-width: 300px;
+  /* height: 300px; */
+  transition: transform 0.3s;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h4 {
+  margin: 0;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.card p {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #333333;
+  max-height: 100px;
+  overflow: auto;
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+}
+
+.tech-div {
+  padding: 15px;
+}
+
+.tech-div span {
+  font-weight: bold;
+  color: grey;
+}
+
+.tech {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.tech li {
+  background: linear-gradient(to right, #9c89b8, #483392);
+  border-radius: 50px;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+/* Slider CSS styles */
+
+.icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.gradient-btn {
+	/* background-image: linear-gradient(to right, #006175 0%, #00a950 100%); */
+	background-image: linear-gradient(to right, #9c89b8, #483392);
+	border-radius: 40px;
+  box-sizing: border-box;
+	/* color: #00a84f; */
+	color: #483392;
+	display: block;
+	font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+	height: 80px;
+	letter-spacing: 1px;
+	margin: 20px 0;
+	padding: 4px;
+	position: relative;
+  text-decoration: none;
+	text-transform: uppercase;
+	width: 264px;
+/* 	z-index: 2; */
+}
+
+.gradient-btn:hover {
+	color: #fff;
+}
+
+.gradient-btn span {
+	align-items: center;
+	background: #e7e8e9;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .3s ease;
+	width: 100%;
+}
+
+.gradient-btn:hover span {
+	background: transparent;
+}
